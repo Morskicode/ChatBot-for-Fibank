@@ -1,0 +1,28 @@
+# Intent patterns configuration for Fibank Chatbot
+# These patterns are used to classify user queries into different intents
+
+credit_cards:
+  - "\\b(credit\\s*card|кредитна\\s*карта|карта|карти)\\b"
+  - "\\b(visa|виза|визa|viza|виса|mastercard|мастеркард|мастърcard|мастер\\s*кард|мастеркарт)\\b"
+  - "\\b(платина|златна|класик|standard|стандартна|gold|голд|platinum|платинум)\\b"
+  - "\\b(плащане|плащания|покупки|first\\s*lady|фърст\\s*лейди|за\\s*дами)\\b"
+
+loans:
+  - "\\b(loan|заем|кредит|ипотека|жилищен)\\b"
+  - "\\b(consumer|потребителски|overdraft|овърдрафт)\\b"
+  - "\\b(финансиране|пари|сума)\\b"
+
+rates:
+  - "\\b(rate|лихва|лихвен|процент)\\b"
+  - "\\b(price|цена|такса|комисионна)\\b"
+  - "\\b(how\\s*much|колко\\s*струва|цената)\\b"
+
+application:
+  - "\\b(apply|кандидатствам|заявка|процес)\\b"
+  - "\\b(how\\s*to|как\\s*да|документи|изисквания)\\b"
+  - "\\b(online|онлайн|клон|филиал)\\b"
+
+help:
+  - "\\b(help|помощ|помогнете|информация)\\b"
+  - "\\b(what\\s*can\\s*you|какво\\s*можеш|възможности)\\b"
+  - "\\b(guide|ръководство|инструкции)\\b" 

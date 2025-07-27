@@ -1,0 +1,132 @@
+# Keywords configuration for Fibank products
+# Used for more precise product matching and categorization
+
+visa:
+  classic:
+    - "visa classic"
+    - "виза класик"
+    - "виза класик карта"
+    - "класическа виза"
+    - "visa klasik"
+    - "klasik visa"
+    - "класик виза"
+  
+  gold:
+    - "visa gold"
+    - "виза голд"
+    - "виза златна"
+    - "златна виза"
+    - "злато виза"
+    - "visa zlatna"
+    - "zlatna visa"
+    - "золотая виза"
+    - "голд виза"
+    - "виза голд карта"
+    - "златна visa"
+    - "gold visa"
+    - "visa голд"
+  
+  platinum:
+    - "visa platinum"
+    - "виза платинум"
+    - "виза платинена"
+    - "платинена виза"
+    - "visa platinena"
+    - "platinena visa"
+    - "платинум виза"
+    - "виза платина"
+    - "platinum visa"
+    - "visa platina"
+
+mastercard:
+  standard:
+    - "mastercard standard"
+    - "мастеркард стандартна"
+    - "стандартна мастеркард"
+    - "mastercard standartna"
+    - "standartna mastercard"
+    - "стандарт мастеркард"
+  
+  gold:
+    - "mastercard gold"
+    - "мастеркард златна"
+    - "златна мастеркард"
+    - "мастеркард голд"
+    - "голд мастеркард"
+    - "mastercard zlatna"
+    - "zlatna mastercard"
+    - "gold mastercard"
+  
+  platinum:
+    - "mastercard platinum"
+    - "мастеркард платинена"
+    - "платинена мастеркард"
+    - "мастеркард платинум"
+    - "платинум мастеркард"
+    - "mastercard platinena"
+    - "platinena mastercard"
+    - "platinum mastercard"
+  
+  first_lady:
+    - "first lady"
+    - "фърст лейди"
+    - "за дами"
+    - "дамска карта"
+    - "дамска мастеркард"
+    - "mastercard first lady"
+    - "мастеркард за дами"
+    - "first lady mastercard"
+    - "platinum first lady"
+    - "платинум за дами"
+
+# General brand keywords (for broader matching)
+brands:
+  visa:
+    - "visa"
+    - "виза"
+    - "визa"
+    - "viza"
+    - "виса"
+  
+  mastercard:
+    - "mastercard"
+    - "мастеркард"
+    - "мастърcard"
+    - "мастер кард"
+    - "мастеркарт"
+
+loans:
+  housing:
+    - "жилищен"
+    - "ипотечен"
+    - "ипотека"
+    - "mortgage"
+    - "housing"
+    - "home loan"
+    - "право на избор"
+    - "ипотечен овърдрафт"
+    - "български граждани"
+  
+  consumer:
+    - "потребителски"
+    - "супер кредит"
+    - "consumer"
+    - "personal loan"
+    - "дом +"
+    - "сигурност"
+    - "зелена енергия"
+    - "зелен транспорт"
+    - "кариерен старт"
+    - "кеш+"
+    - "студентски"
+  
+  overdraft:
+    - "овърдрафт"
+    - "overdraft"
+    - "лесен кредит"
+    - "комфорт"
+  
+  other:
+    - "стоков кредит"
+    - "click кредит"
+    - "онлайн кредит" 
